@@ -119,8 +119,8 @@ dual_model = Model(
         )
 
 
-dual_model.load_weights("bp.weights_300.h5", by_name=True)
-dual_model.load_weights("sr.weights_CHERNOVA.h5", by_name=True)
+dual_model.load_weights("bp.weights.h5", by_name=True)
+dual_model.load_weights("sr.weights.h5", by_name=True)
 
 #plot_model(dual_model,to_file='demo.png',show_shapes=True)
 
